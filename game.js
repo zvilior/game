@@ -66,7 +66,7 @@ function RegPlayers(playernum) { // רישום שמות השחקנים
         pl1.setAttribute("type", "text");
         pl1.id = 'pl1'
         pl1.setAttribute("placeholder", "name 1");
-        pl1.className = 'pl1 formname'
+        pl1.className = ['pl1', 'formname']
         formname.appendChild(pl1);
         const btp = document.createElement('button');
         btp.innerText = "continue";
