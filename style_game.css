@@ -1,0 +1,224 @@
+
+body{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+::placeholder { 
+  color: rgb(202, 198, 198);}
+input.pl1, textarea { 
+  background: rgb(65, 154, 156);
+  font-weight: lighter;
+  width: 160px;
+  height: 70px;
+  color: white;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  border-radius: 25px
+  
+}
+.pl1{
+  margin-left: 50px;
+}
+.pl2{
+  margin-left: 50px;
+}
+input.pl2, textarea{ 
+  background: rgb(65, 154, 156);
+  color: white;
+  font-weight: lighter;
+  width: 160px;
+  height: 70px;
+  font-size: small;
+  font-style: italic;
+  text-align: center;
+  border-radius: 25px
+}
+#formname{
+  display: grid;
+  grid-template-columns: 1fr;
+  position: relative;
+  margin-right: 780px;
+  margin-left: 50px;
+  grid-column-gap: 100px;
+}
+.formname{
+  margin-bottom: 30px;
+}
+#buttons{
+  padding-left :380px;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.headlinedif{
+  color: white;
+  font-weight: 900;
+  background: linear-gradient(90deg, rgb(65, 154, 156) 0%, rgb(65, 154, 156) 100%);/*×¦×‘×¢ ×¦×“ ×™×ž×™×Ÿ//×¦×‘×¢ ×¦×“ ×©×ž××œ*/
+  font-family: "Abril Fatface";
+  font-size: xx-large;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  /* margin: 0 15px; */
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out 0s;
+  height: 70px;
+  border-radius: 25px;
+  width: 540px;
+  /* margin-top: 280px; */
+  margin-right: 50px;
+  margin-left: 15px;
+}
+
+#players{display: grid;
+    gap: 35px;
+    grid-template-columns: 1fr 1fr;
+  margin-left: 15px;
+  margin-top: 12px;
+font-style: italic;
+font-size: large ;
+color: rgb(65, 154, 156);
+}
+.board{display: grid;
+    gap: 35px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin-left: 55px;
+  margin-top: 132px;
+  margin-bottom: 55px;
+  }
+.board1{display: grid;
+    gap: 35px;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+  margin-left: 155px;
+  margin-top: 132px;
+  margin-bottom: 55px;
+  }
+    
+    
+    .card{
+        width: 120px;
+        height: 120px;
+        justify-content: center;
+    cursor: pointer;
+    font-size: 110px;
+    
+}
+
+.Visible:hover,
+.Visible:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.btn{
+  
+    color: #313133;
+    background: linear-gradient(90deg, rgb(65, 154, 156) 0%, rgb(65, 154, 156) 100%);/*×¦×‘×¢ ×¦×“ ×™×ž×™×Ÿ//×¦×‘×¢ ×¦×“ ×©×ž××œ*/
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 20px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out 0s;
+}
+.btn:focus,
+.btn:hover{
+    color: #333131;
+    background: linear-gradient(90deg, rgb(65, 154, 156) 0%, rgb(65, 154, 156) 100%);/*×¦×‘×¢ ×¦×“ ×™×ž×™×Ÿ ×¦×‘×¢ ×¦×“ ×©×ž××œ ×›×©×”×¢×›×‘×¨ ×ž×¢×œ*/
+}   
+.btn:before{
+    content: '';
+    min-width: calc(100% + 17px);
+    min-height: calc(100% + 17px);
+    border-radius: 50px;
+    border: 5px solid #4125b3; /*×¦×‘×¢ ×ž×¡×’×¨×ª ×›××©×¨ ×”×¢×›×‘×¨ ×ž×¢×œ*/
+    box-shadow: 0 0 40px rgba(0,255,203,.7);/*×¦×‘×¢ ×©×œ ×”×¦×œ ×›×©×”×¢×›×‘×¨ ×ž×¢×œ*/
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%) scale(0.5);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all .3s ease-in-out 0s;
+}
+.btn:hover:before{
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+@media only screen and (max-width: 767px){
+    .btn{ margin-bottom: 30px; }
+}
+
+#btp
+{
+  /* margin-top: 45px;
+  margin-left: 200px;
+  margin-right: 600px; */
+  color: white;
+  font-weight: 900;
+  background: linear-gradient(90deg, rgb(65, 154, 156) 0%, rgb(65, 154, 156) 100%);/*×¦×‘×¢ ×¦×“ ×™×ž×™×Ÿ//×¦×‘×¢ ×¦×“ ×©×ž××œ*/
+  font-family: "Abril Fatface";
+  font-size: xx-large;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  /* margin: 0 15px; */
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out 0s;
+  width: 260px;
+  height: 70px;
+  border-radius: 25px
+  
+}
+#btd{
+
+  margin-top: 45px;
+  margin-left: 200px;
+  margin-right: 600px;
+  color: white;
+  font-weight: 900;
+  background: linear-gradient(90deg, rgb(65, 154, 156) 0%, rgb(65, 154, 156) 100%);/*×¦×‘×¢ ×¦×“ ×™×ž×™×Ÿ//×¦×‘×¢ ×¦×“ ×©×ž××œ*/
+  font-family: "Abril Fatface";
+  font-size: large;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 8px 20px;
+  /* margin: 0 15px; */
+  border: none;
+  border-radius: 50px;
+  position: relative;
+  z-index: 1;
+  transition: all 0.3s ease-in-out 0s;
+  width: 130px;
+  height: 52px;
+  border-radius: 25px
+}
+#winner{
+  margin-left: 345px;
+  margin-top: 120px;
+  font-weight: 600px;
+  font-size:6rem;
+  font-family:"Abril Fatface" ;
+  color: white;
+
+}
+.pln{
+  /* border:solid goldenrod 10px;
+  width: fit-content;
+block-size: fit-content; */
+color: goldenrod;
+font-weight: bolder;
+}
